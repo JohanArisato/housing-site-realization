@@ -1,0 +1,65 @@
+{
+  "data": "sample",
+  "n_sites": 6000,
+  "base_rate": 0.1955,
+  "n_communities": 32,
+  "spatial_cv": [
+    {
+      "model": "capacity_baseline",
+      "roc_auc": 0.7417525318915994,
+      "pr_auc": 0.3989016132515405,
+      "brier": NaN,
+      "roc_auc_95ci": "[0.727, 0.756]",
+      "pr_auc_95ci": "[0.374, 0.429]"
+    },
+    {
+      "model": "logistic",
+      "roc_auc": 0.8211506001955822,
+      "pr_auc": 0.5479462675204856,
+      "brier": 0.11989108896268828,
+      "roc_auc_95ci": "[0.809, 0.834]",
+      "pr_auc_95ci": "[0.519, 0.576]"
+    },
+    {
+      "model": "gbm",
+      "roc_auc": 0.8168685097731908,
+      "pr_auc": 0.5325613751879626,
+      "brier": 0.12182234362660066,
+      "roc_auc_95ci": "[0.804, 0.828]",
+      "pr_auc_95ci": "[0.503, 0.560]"
+    }
+  ],
+  "random_cv": [
+    {
+      "model": "capacity_baseline",
+      "roc_auc": 0.7417525318915994,
+      "pr_auc": 0.3989016132515405,
+      "brier": NaN
+    },
+    {
+      "model": "logistic",
+      "roc_auc": 0.8230417810020398,
+      "pr_auc": 0.5518134692043399,
+      "brier": 0.1193154443995448
+    },
+    {
+      "model": "gbm",
+      "roc_auc": 0.8204973939747489,
+      "pr_auc": 0.5384558235738224,
+      "brier": 0.12095774451440121
+    }
+  ],
+  "claimed_units": 124225.0,
+  "expected_units": 43843.677562278936,
+  "top_features": {
+    "log_net_units": 0.5243,
+    "transit_priority": 0.4039,
+    "utilization": 0.3786,
+    "max_density": 0.2928,
+    "log_acres": 0.2666,
+    "dist_downtown_km": 0.1947,
+    "lu_vacant": 0.159,
+    "nbr_log_capacity_400m": 0.159
+  },
+  "oracle_auc_true_p": 0.8413589303277901
+}
