@@ -1,6 +1,6 @@
 # Will It Get Built? Predicting Which Housing Element Sites Are Realized
 
-**Jhoven Fernandez** · Urban data science · Spatial machine learning · Housing policy
+**Johan (Jhoven) Fernandez** · Urban data science · Spatial machine learning · Housing policy
 
 California cities must show the state that they have enough land zoned to meet
 their housing targets. San Diego's 2021–2029 Housing Element lists thousands of
@@ -156,6 +156,14 @@ src/hsr/report.py          figures, realistic capacity, equity audit
 src/hsr/webmap.py          interactive Leaflet map
 tests/                     unit tests
 ```
+
+## Shared database
+
+The sites and approvals tables are also layers in **[geoai-cities-db](https://github.com/JohanArisato/geoai-cities-db)** (`sd_housing_sites`, `sd_housing_permits`), joined to San Diego's 124 neighborhoods and to CurbCall's resident reports. That makes cross-project questions one query away, for example: do the sites the city counts on for new homes sit in neighborhoods where residents report the most unresolved sidewalk, lighting and flooding problems?
+
+## Part of
+
+[GeoAI for Cities](https://github.com/JohanArisato/geoai-for-cities) · [Who Gets the Shade?](https://github.com/JohanArisato/who-gets-the-shade) · [CurbCall](https://github.com/JohanArisato/curbcall)
 
 ## License
 
