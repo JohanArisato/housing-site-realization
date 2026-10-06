@@ -1,5 +1,7 @@
 # Will It Get Built? Predicting Which Housing Element Sites Are Realized
 
+> 🌐 [Interactive site explorer](https://johanarisato.github.io/geoai-for-cities/explore/housing.html) · [GeoAI for Cities](https://johanarisato.github.io/geoai-for-cities/) · [Portfolio](https://johanarisato.github.io/Johan.github.io/)
+
 **Johan Fernandez** · Urban data science · Spatial machine learning · Housing policy
 
 California cities must show the state that they have enough land zoned to meet
