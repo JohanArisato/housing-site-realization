@@ -1,6 +1,6 @@
 # Will It Get Built? Predicting Which Housing Element Sites Are Realized
 
-**Jhoven Fernandez** · Urban data science · Spatial machine learning · Housing policy
+**Johan Fernandez** · Urban data science · Spatial machine learning · Housing policy
 
 California cities must show the state that they have enough land zoned to meet
 their housing targets. San Diego's 2021–2029 Housing Element lists thousands of
